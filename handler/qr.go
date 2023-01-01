@@ -48,5 +48,11 @@ func (h *QRHandler) GenerateQR(c *gin.Context) {
 		return
 	}
 
-	c.Data(http.StatusOK, "", qrCode)
+	response := utils.ResponseAPI(
+		"success",
+		"success to generate QR Code",
+		http.StatusOK,
+		qrCode,
+	)
+	c.JSON(http.StatusOK, response)
 }
