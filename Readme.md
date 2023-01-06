@@ -1,6 +1,6 @@
 # GO QR BACKEND   
 
-Ini merupakan repo backend dari aplikasi GO QR. Agar berjalan dengan baik, anda perlu menjalankan dua repo sekaligus. Yaitu repo [Frontend](https://github.com/rezairfanwijaya/go-qr-frontend) dan [Backend](https://github.com/rezairfanwijaya/go-qr-backend). 
+Ini merupakan repo backend dari aplikasi GO QR. Agar berjalan dengan baik, anda perlu menjalankan dua repo sekaligus. Yaitu repo [Frontend](https://github.com/rezairfanwijaya/go-qr-frontend) dan [Backend](https://github.com/rezairfanwijaya/go-qr-backend). Untuk containerization dapat dipull melalui [image-backend](https://hub.docker.com/repository/docker/rezairfanwijaya/go-qr-backend/general)
 
 #### Step menjalankan repo [Backend](https://github.com/rezairfanwijaya/go-qr-backend) di lokal
 
@@ -29,7 +29,6 @@ Ini merupakan repo backend dari aplikasi GO QR. Agar berjalan dengan baik, anda 
 
 Untuk menjalankan aplikasi GO-QR pastikan repo [Frontend](https://github.com/rezairfanwijaya/go-qr-frontend) dan [Backend](https://github.com/rezairfanwijaya/go-qr-backend) dijalakan secara bersamaan
 
-#### Aplikasi ini telah dicontainerization dan dapat dipull pada [image-backend](https://hub.docker.com/repository/docker/rezairfanwijaya/go-qr-backend/general)
 
 
 
