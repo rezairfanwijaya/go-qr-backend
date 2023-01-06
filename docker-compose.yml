@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+  go-qr-backend:
+    build: .
+    ports:
+      - 8989:8989
+    networks:
+      - go-qr-network
+  
+  go-qr-frontend:
+    image: rezairfanwijaya/go-qr-frontend:latest
+    ports:
+      - 3000:3000
+    networks:
+      - go-qr-network
+    depends_on:
+      - go-qr-backend
+
+networks:
+  go-qr-network:
