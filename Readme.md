@@ -27,7 +27,9 @@ Ini merupakan repo backend dari aplikasi GO QR. Agar berjalan dengan baik, anda 
   go run main.go
 ```
 
-Untuk menjalankan aplikasi GO-QR pastikan repo [Frontend](https://github.com/rezairfanwijaya/go-qr-frontend) dan [Backend](https://github.com/rezairfanwijaya/go-qr-backend) dijalakan secara bersamaan
+##### Untuk menjalankan aplikasi GO-QR pastikan repo [Frontend](https://github.com/rezairfanwijaya/go-qr-frontend) dan [Backend](https://github.com/rezairfanwijaya/go-qr-backend) dijalakan secara bersamaan
+
+##### Atau anda dapat langsung menjalankan aplikasi ini dengan command ```docker compose up``` dan akses aplikasi pada alamat ```http://localhost:3000/````
 
 
 
